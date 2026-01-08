@@ -38,7 +38,7 @@ const userSlice = createSlice({
             console.log(state.data);
             if(state.data){
                 state.isLoggedIn = true;
-                localStorage.setItem('isLoggedIn',true);
+                localStorage.setItem('isLoggedIn','true');
                 localStorage.setItem('userData',JSON.stringify(state.data));
                 
             }

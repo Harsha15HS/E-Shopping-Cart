@@ -20,11 +20,6 @@ function Home() {
   store.subscribe(() => {
     setProducts(store.getState().products.productsList);
   });
-
-
-
-
-
   return (
     <>
       <header className='bg-blue-300 h-100 flex justify-center items-center lg:text-3xl font-bold'>
